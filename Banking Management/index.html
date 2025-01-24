@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">Banking System</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">All Customers</a></li>
+            <li><a href="#">Transfer Money</a></li>
+            <li><a href="#">Transaction History</a></li>
+            <li><a href="#" id="login-btn">Login</a></li>
+            <li><a href="#" id="register-btn">Register</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <!-- Home Section -->
+        <section id="home" class="section">
+            <div class="content">
+                <h1>Welcome to the Banking System</h1>
+                <p>Your trusted platform to manage finances, transfer money, and track transactions.</p>
+                <a href="#" class="cta-button">Get Started</a>
+            </div>
+        </section>
+
+        <!-- All Customers Section -->
+        <section id="customers" class="section">
+            <div class="content">
+                <h2>All Customers</h2>
+                <p>Explore all your customers and their account details.</p>
+                <a href="#" class="cta-button">View Customers</a>
+            </div>
+        </section>
+
+        <!-- Transfer Money Section -->
+        <section id="transfer" class="section">
+            <div class="content">
+                <h2>Transfer Money</h2>
+                <p>Transfer funds easily between any two customers.</p>
+                <a href="#" class="cta-button">Transfer Now</a>
+            </div>
+        </section>
+
+        <!-- Transaction History Section -->
+        <section id="history" class="section">
+            <div class="content">
+                <h2>Transaction History</h2>
+                <p>View all the transactions and their details.</p>
+                <a href="#" class="cta-button">View History</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- Register Modal -->
+    <div id="register-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="close-register">&times;</span>
+            <h2>Register</h2>
+            <form id="register-form">
+                <label for="register-username">Username</label>
+                <input type="text" id="register-username" name="username" required>
+
+                <label for="register-email">Email</label>
+                <input type="email" id="register-email" name="email" required>
+
+                <label for="register-password">Password</label>
+                <input type="password" id="register-password" name="password" required>
+
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="close-login">&times;</span>
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="login-username">Username</label>
+                <input type="text" id="login-username" name="username" required>
+
+                <label for="login-password">Password</label>
+                <input type="password" id="login-password" name="password" required>
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Banking System. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
