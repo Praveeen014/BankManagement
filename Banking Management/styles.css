@@ -1,11 +1,11 @@
-/* Basic Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body & General Styling */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f0f2f5;
@@ -14,7 +14,7 @@ body {
 }
 
 
-/* Navbar */
+
 .navbar {
     background-color: #1e2a3a;
     color: #fff;
@@ -54,12 +54,12 @@ body {
     color: #3498db;
 }
 
-/* Main Content */
+
 .main-content {
     padding: 60px 50px;
 }
 
-/* Section Styling */
+
 .section {
     background-color: #fff;
     padding: 40px;
@@ -96,7 +96,7 @@ body {
     background-color: #2980b9;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 20px;
@@ -107,7 +107,7 @@ footer {
     width: 100%;
 }
 
-/* Modal Styling */
+
 .modal {
     display: none;
     position: fixed;
@@ -172,7 +172,7 @@ footer {
     color: black;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
